@@ -46,7 +46,7 @@
 }
 .main h3 strong {
   font-weight: 700;
-  color: #0d42ff;
+  color: #fb24ff;
 }
 
 /* Template formatting */
@@ -65,7 +65,7 @@
 }
 
 .template a:hover h2 {
-  color: #0d42ff;
+  color: #fb24ff;
 }
 
 .templateIcon {
