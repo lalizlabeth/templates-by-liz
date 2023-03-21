@@ -1,0 +1,129 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 32px;
+}
+
+.main h1,
+.main h2,
+.main h3,
+.main p {
+  font-family: "Space Grotesk", sans-serif;
+  color: #21242c;
+}
+
+.main h1,
+.main h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main h1 {
+  font-size: 120px;
+  line-height: 100px;
+  margin-bottom: 16px;
+}
+.main h2 {
+  font-size: 44px;
+  line-height: 48px;
+}
+.main h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main p {
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+}
+.main h3 strong {
+  font-weight: 700;
+  color: #0d42ff;
+}
+
+/* Template formatting */
+.templates {
+  border-top: 1px solid #21242c;
+}
+.template {
+  border-bottom: 1px solid #21242c;
+  padding: 32px 0;
+}
+.template a {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.template a:hover h2 {
+  color: #0d42ff;
+}
+
+.templateIcon {
+  background: url(/arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 52px;
+  width: 30px;
+}
+
+.templateDescription {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 4px;
+}
+.templateDescription p {
+  opacity: 0.6;
+}
+
+h2.templatePrice {
+  font-weight: 400;
+  text-align: right;
+  width: 90px;
+}
+
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    gap: 20px;
+  }
+  .main h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 8px;
+  }
+  .main h2 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .main h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .main p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .templateIcon {
+    height: 22px;
+    width: 13px;
+  }
+  .template {
+    padding: 16px 0;
+  }
+  .template a {
+    gap: 8px;
+  }
+  h2.templatePrice {
+    width: 40px;
+  }
+}
