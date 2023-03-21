@@ -32,6 +32,7 @@ const Home: NextPage = () => {
               ✻ download for $9 ✻
             </a>
             <img
+              alt="Template example"
               className={styles.img}
               width="100%"
               src="/trip/placeholder-image.png"

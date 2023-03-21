@@ -1,7 +1,6 @@
 import styles from "./index.module.css";
 import { type NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -12,7 +11,7 @@ const Home: NextPage = () => {
           name="description"
           content="Ultimate Notion Templates for people who are everything, everywhere all at once."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-general.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap"
           rel="stylesheet"
@@ -44,8 +43,9 @@ const Home: NextPage = () => {
                 <div className={styles.templateDescription}>
                   <h2>The ultimate wedding planning template</h2>
                   <p>
-                    Be so prepared your in-laws will think you’ve already been
-                    married before..
+                    {
+                      " Be so prepared your in-laws will think you’ve already been married before. "
+                    }
                   </p>
                 </div>
                 <h2 className={styles.templatePrice}>$39</h2>
