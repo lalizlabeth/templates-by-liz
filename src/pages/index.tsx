@@ -12,6 +12,33 @@ const Home: NextPage = () => {
           name="description"
           content="Ultimate Notion Templates for people who are everything, everywhere all at once."
         />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://www.templatesbyliz.com" />
+
+        <meta name="twitter:title" content="Templates by Liz" />
+        <meta
+          name="twitter:description"
+          content="Ultimate Notion Templates for people who are everything, everywhere all at once."
+        />
+        <meta name="twitter:site" content="@lalizlabeth"></meta>
+        <meta
+          name="twitter:image"
+          content="https://www.templatesbyliz.com/og-images/general.png"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          property="og:image"
+          content="https://www.templatesbyliz.com/og-images/general.pn"
+        />
+        <meta property="og:title" content="Templates by Liz" />
+        <meta
+          property="og:description"
+          content="Ultimate Notion Templates for people who are everything, everywhere all at once."
+        />
+        <meta
+          name="keywords"
+          content="notion templates, notion, wedding planning template, wedding planning notion template, travel notion template, travel planner, travel planning, travel planning template, ultimate notion templates, elizabeth lin, lalizlabeth, elizabeth notion templates"
+        />
         <link rel="icon" href="/favicon-general.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap"
