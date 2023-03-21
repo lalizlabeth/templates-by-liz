@@ -1,6 +1,7 @@
 import styles from "./index.module.css";
 import { type NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -28,17 +29,17 @@ const Home: NextPage = () => {
           </header>
           <ul className={styles.templates}>
             <li className={styles.template}>
-              <a href="/trip">
+              <Link href="/trip">
                 <div className={styles.templateIcon}></div>
                 <div className={styles.templateDescription}>
                   <h2>The ultimate trip planning template</h2>
                   <p>Make the most out of every second of your vacation.</p>
                 </div>
                 <h2 className={styles.templatePrice}>$9</h2>
-              </a>
+              </Link>
             </li>
             <li className={styles.template}>
-              <a href="www.bridezillaproof.com">
+              <Link href="www.bridezillaproof.com">
                 <div className={styles.templateIcon}></div>
                 <div className={styles.templateDescription}>
                   <h2>The ultimate wedding planning template</h2>
@@ -49,7 +50,7 @@ const Home: NextPage = () => {
                   </p>
                 </div>
                 <h2 className={styles.templatePrice}>$39</h2>
-              </a>
+              </Link>
             </li>
           </ul>
           <footer>
