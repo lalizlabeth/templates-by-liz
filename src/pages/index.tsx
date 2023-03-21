@@ -66,7 +66,7 @@ const Home: NextPage = () => {
               </Link>
             </li>
             <li className={styles.template}>
-              <Link href="www.bridezillaproof.com">
+              <Link href="https://www.bridezillaproof.com">
                 <div className={styles.templateIcon}></div>
                 <div className={styles.templateDescription}>
                   <h2>The ultimate wedding planning template</h2>
