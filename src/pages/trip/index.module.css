@@ -1,0 +1,74 @@
+.main {
+  align-items: center;
+  background: #feffd2;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 60px;
+}
+
+.wrapper {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+}
+
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6 {
+  color: #0a1635;
+  font-family: "Syne", sans-serif;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.main h1 {
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: 113px;
+  line-height: 114px;
+}
+
+.main h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.header .btn {
+  margin-top: 20px;
+}
+.header .img {
+  margin-top: 32px;
+}
+
+.btn {
+  background: #99f141;
+  border: 1px solid #0a1635;
+  box-shadow: 0px 8px 0px #0a1635;
+  border-radius: 12px;
+  color: #0a1635;
+  display: block;
+  font-family: "Syne";
+  font-feature-settings: "pnum" on, "lnum" on, "ss04" on;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 20px;
+  line-height: 29px;
+  text-decoration: none;
+  width: fit-content;
+}
+.btn:hover {
+  box-shadow: 0px 4px 0px #0a1635;
+}
