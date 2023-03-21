@@ -23,12 +23,12 @@ const Home: NextPage = () => {
         <meta name="twitter:site" content="@lalizlabeth"></meta>
         <meta
           name="twitter:image"
-          content="https://www.templatesbyliz.com/og-images/general.png"
+          content="https://www.templatesbyliz.com/og-images/home.png"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           property="og:image"
-          content="https://www.templatesbyliz.com/og-images/general.pn"
+          content="https://www.templatesbyliz.com/og-images/home.png"
         />
         <meta property="og:title" content="Templates by Liz" />
         <meta
