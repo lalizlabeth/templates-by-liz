@@ -1,6 +1,7 @@
 import styles from "./index.module.css";
 import { type NextPage } from "next";
 import Head from "next/head";
+import Marquee from "react-fast-marquee";
 
 const Home: NextPage = () => {
   return (
@@ -39,6 +40,25 @@ const Home: NextPage = () => {
             />
           </header>
         </div>
+        <Marquee
+          style={{
+            backgroundColor: "white",
+            fontFamily: "inconsolata",
+            padding: 8,
+            marginBottom: 20,
+            position: "fixed",
+            bottom: 0,
+            boxShadow: "2px 2px 8px rgb(255 56 188 / 50%)",
+            transition: "opacity .5s",
+          }}
+          gradient={false}
+          pauseOnHover={true}
+          pauseOnClick={true}
+        >
+          {Array.from(Array(20)).map(() => (
+            " Download now! "
+          ))}
+        </Marquee>
       </main>
     </>
   );
