@@ -4,12 +4,15 @@
   display: flex;
   justify-content: center;
   height: 100%;
-  padding: 60px;
+  padding: 90px 60px 90px 60px;
 }
 
 .wrapper {
+  align-items: center;
   display: flex;
-  max-width: 900px;
+  flex-direction: column;
+  gap: 48px;
+  max-width: 1000px;
   width: 100%;
 }
 
@@ -33,10 +36,15 @@
 }
 
 .main h1 {
-  font-family: "Syne", sans-serif;
   font-weight: 700;
   font-size: 113px;
   line-height: 114px;
+}
+
+.main h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
 }
 
 .main h4 {
@@ -44,6 +52,23 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+}
+
+.main p,
+.main li {
+  color: #0a1635;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.main p a {
+  color: #0a1635;
+  font-weight: 700;
+  text-decoration: none;
+}
+.main p a:hover {
+  text-decoration: underline;
 }
 
 .header .btn {
@@ -56,19 +81,88 @@
 .btn {
   background: #99f141;
   border: 1px solid #0a1635;
-  box-shadow: 0px 8px 0px #0a1635;
   border-radius: 12px;
   color: #0a1635;
   display: block;
   font-family: "Syne";
   font-feature-settings: "pnum" on, "lnum" on, "ss04" on;
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 20px;
   padding: 8px 20px;
-  line-height: 29px;
+  line-height: 24px;
   text-decoration: none;
   width: fit-content;
 }
 .btn:hover {
-  box-shadow: 0px 4px 0px #0a1635;
+  background: #0a1635;
+  border: 1px solid #99f141;
+  color: #99f141;
+  cursor: pointer;
+}
+
+.divider {
+  border-bottom: 0.5px solid #0a1635;
+  outline: none;
+  width: 100%;
+}
+
+.section,
+.sectionBio,
+.sectionCentered {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.sectionCentered {
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 700px;
+}
+.sectionText,
+.sectionImage {
+  width: 50%;
+}
+.sectionText {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.sectionText li {
+  list-style-type: "✓ ";
+  margin-bottom: 8px;
+}
+.section ul {
+  padding-left: 18px;
+}
+.sectionImage {
+  flex-grow: 1;
+}
+
+.sectionImage img {
+  border: 1px solid #0a1635;
+  border-radius: 12px;
+  height: auto;
+  width: 100%;
+}
+.sectionBio .sectionText {
+  width: 75%;
+}
+.sectionBio .sectionImage {
+  width: 25%;
+}
+
+.tag {
+  font-size: 14px;
+  font-weight: 700;
+  background: #99f141;
+  border: 1px solid #0a1635;
+  padding: 8px 16px;
+  width: fit-content;
+}
+
+/* Marquee */
+.marquee span {
+  display: inline-block;
+  margin-right: 32px;
 }
