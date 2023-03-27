@@ -2,6 +2,7 @@ import styles from "./index.module.css";
 import { type NextPage } from "next";
 import Head from "next/head";
 import Marquee from "react-fast-marquee";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -118,6 +119,13 @@ const Home: NextPage = () => {
                 <a href="https://twitter.com/@lalizlabeth">@lalizlabeth</a>.
               </p>
             </div>
+          </section>
+          <hr className={styles.divider}></hr>
+          <section className={styles.sectionCentered}>
+            <h2>interested in other templates?</h2>
+            <Link className={styles.btn} href="/">
+              check out more templates by liz
+            </Link>
           </section>
         </div>
         <Marquee
