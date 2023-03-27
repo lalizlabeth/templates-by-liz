@@ -143,15 +143,15 @@ const Home: NextPage = () => {
           pauseOnClick={true}
           speed={80}
         >
-          {Array.from(Array(20)).map(() => [
-            <span>{"friend reunions ✻ "}</span>,
-            <span>{"group trips"}</span>,
-            <span>{"backpacking adventures"}</span>,
-            <span>{"couple getaways"}</span>,
-            <span>{"honeymoons"}</span>,
-            <span>{"family road trips"}</span>,
-            <span>{"bachelorette parties"}</span>,
-            <span>{"solo travels"}</span>,
+          {Array.from(Array(20)).map((_, index) => [
+            <span key={index}>{"friend reunions ✻ "}</span>,
+            <span key={index}>{"group trips"}</span>,
+            <span key={index}>{"backpacking adventures"}</span>,
+            <span key={index}>{"couple getaways"}</span>,
+            <span key={index}>{"honeymoons"}</span>,
+            <span key={index}>{"family road trips"}</span>,
+            <span key={index}>{"bachelorette parties"}</span>,
+            <span key={index}>{"solo travels"}</span>,
           ])}
         </Marquee>
       </main>

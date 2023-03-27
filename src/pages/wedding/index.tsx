@@ -162,10 +162,13 @@ const Home: NextPage = () => {
             </div>
           </section>
 
-          <section className={styles.featureCentered}>
-            <h1 className={styles.headingLarge}>
+          <section
+            className={styles.featureCentered}
+            style={{ borderBottom: "none" }}
+          >
+            <h2 className={styles.headingMedium} style={{ marginBottom: 20 }}>
               Interested in other templates?
-            </h1>
+            </h2>
             <Link className={styles.btn} href="/">
               check out more templates by liz
             </Link>
