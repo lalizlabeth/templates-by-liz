@@ -8,10 +8,46 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>The ultimate trip planner template</title>
+        <title>The Ultimate Trip Planning Template | Notion Template</title>
         <meta
           name="description"
-          content="Make the most out of every second of your vacation!"
+          content="A Notion Template that helps you make the most out of every second of your vacation!"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:url"
+          content="https://www.templatesbyliz.com/trip"
+        />
+
+        <meta
+          name="twitter:title"
+          content="The Ultimate Trip Planning Template | Notion Template"
+        />
+        <meta
+          name="twitter:description"
+          content="A Notion Template that helps you make the most out of every second of your vacation!"
+        />
+        <meta name="twitter:site" content="@lalizlabeth"></meta>
+        <meta
+          name="twitter:image"
+          content="https://www.templatesbyliz.com/og-images/trip.png"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          property="og:image"
+          content="https://www.templatesbyliz.com/og-images/trip.png"
+        />
+        <meta
+          property="og:title"
+          content="The Ultimate Trip Planning Template | Notion Template"
+        />
+        <meta
+          property="og:description"
+          content="A Notion Template that helps you make the most out of every second of your vacation!"
+        />
+        <meta
+          name="keywords"
+          content="notion templates, notion, trip planning template, trip planning notion template, travel notion template, travel planner, travel planning, travel planning template, ultimate notion templates, elizabeth lin, lalizlabeth, elizabeth notion templates"
         />
         <link rel="icon" href="/favicon.png" />
         <link
