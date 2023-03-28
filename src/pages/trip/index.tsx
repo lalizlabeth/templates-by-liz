@@ -75,12 +75,16 @@ export default function Home(props: HomeProps) {
             >
               ✻ download for $9 ✻
             </a>
-            <img
-              alt="Template example"
+            <video
               className={styles.img}
+              autoPlay
+              muted
+              playsInline
               width="100%"
-              src="/trip/placeholder-image.png"
-            />
+              style={{ borderRadius: 10, border: "1px solid black" }}
+            >
+              <source src="/trip/trip.mp4" type="video/mp4"></source>
+            </video>
           </header>
           <section className={styles.section}>
             <div className={styles.sectionText}>
@@ -96,7 +100,12 @@ export default function Home(props: HomeProps) {
               </ul>
             </div>
             <div className={styles.sectionImage}>
-              <img src="/trip/example-1.png" height="auto" width="100%"></img>
+              <img
+                src="/trip/example-1.png"
+                height="auto"
+                width="100%"
+                style={{ border: "none", borderRadius: 0 }}
+              ></img>
             </div>
           </section>
           <hr className={styles.divider}></hr>
