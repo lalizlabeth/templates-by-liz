@@ -5,7 +5,7 @@ import Link from "next/link";
 import { getTripPlannerPaymentLink } from "~/helpers/paymentHelpers";
 
 interface HomeProps {
-  paymentLink: string;
+  paymentLink: string
 }
 
 export default function Home(props: HomeProps) {
@@ -238,9 +238,9 @@ export default function Home(props: HomeProps) {
       </main>
     </>
   );
-};
+}
 
-export async function getStaticProps() {
+export function getStaticProps() {
   return {
     props: {
       paymentLink: getTripPlannerPaymentLink(),
