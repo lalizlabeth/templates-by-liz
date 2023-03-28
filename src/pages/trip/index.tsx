@@ -143,14 +143,54 @@ const Home: NextPage = () => {
           speed={80}
         >
           {Array.from(Array(20)).map((_, index) => [
-            <span key={index}>{"friend reunions ✻ "}</span>,
-            <span key={index}>{"group trips"}</span>,
-            <span key={index}>{"backpacking adventures"}</span>,
-            <span key={index}>{"couple getaways"}</span>,
-            <span key={index}>{"honeymoons"}</span>,
-            <span key={index}>{"family road trips"}</span>,
-            <span key={index}>{"bachelorette parties"}</span>,
-            <span key={index}>{"solo travels"}</span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"friend reunions"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"✻"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"group trips"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"✻"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"backpacking adventures"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"✻"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"couple getaways"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"✻"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"honeymoons"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"✻"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"family road trips"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"✻"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"bachelorette parties"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"✻"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"solo travels"}
+            </span>,
+            <span className={styles.marqueeItem} key={index}>
+              {"✻"}
+            </span>,
           ])}
         </Marquee>
       </main>
