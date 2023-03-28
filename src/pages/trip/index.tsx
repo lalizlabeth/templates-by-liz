@@ -1,10 +1,16 @@
 import styles from "./index.module.css";
-import { type NextPage } from "next";
 import Head from "next/head";
 import Marquee from "react-fast-marquee";
 import Link from "next/link";
+import { getTripPlannerPaymentLink } from "~/helpers/paymentHelpers";
 
-const Home: NextPage = () => {
+interface HomeProps {
+  paymentLink: string;
+}
+
+export default function Home(props: HomeProps) {
+  const paymentLink = props.paymentLink
+
   return (
     <>
       <Head>
@@ -65,7 +71,7 @@ const Home: NextPage = () => {
             </h4>
             <a
               className={styles.btn}
-              href="https://checkout.stripe.com/c/pay/cs_live_a1KIrWekPdQINeS4E4obfrH4TYq9jO3up3itZz3cFgMIOt6DpUcvAUBYYd#fidkdWxOYHwnPyd1blppbHNgWmRQU2w8TURLV2M3U25McDBydUE3UDVHXCcpJ3VpbGtuQH11anZgYUxhJz8nM2pAYFJUNWpcNlJjMjQzNmZhJ3gl"
+              href={paymentLink}
             >
               ✻ download for $9 ✻
             </a>
@@ -130,7 +136,7 @@ const Home: NextPage = () => {
             </p>
             <a
               className={styles.btn}
-              href="https://checkout.stripe.com/c/pay/cs_live_a1KIrWekPdQINeS4E4obfrH4TYq9jO3up3itZz3cFgMIOt6DpUcvAUBYYd#fidkdWxOYHwnPyd1blppbHNgWmRQU2w8TURLV2M3U25McDBydUE3UDVHXCcpJ3VpbGtuQH11anZgYUxhJz8nM2pAYFJUNWpcNlJjMjQzNmZhJ3gl"
+              href={paymentLink}
             >
               ✻ start planning for $9 ✻
             </a>
@@ -234,4 +240,10 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export async function getStaticProps() {
+  return {
+    props: {
+      paymentLink: getTripPlannerPaymentLink(),
+    },
+  };
+}
