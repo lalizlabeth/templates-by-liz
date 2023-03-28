@@ -40,7 +40,6 @@ const Home: NextPage = () => {
               src="/trip/placeholder-image.png"
             />
           </header>
-          <hr className={styles.divider}></hr>
           <section className={styles.section}>
             <div className={styles.sectionText}>
               <h5 className={styles.tag}>for couples</h5>
