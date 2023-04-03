@@ -79,6 +79,20 @@ const Home: NextPage = () => {
                 <h2 className={styles.templatePrice}>$39</h2>
               </Link>
             </li>
+            <li className={styles.template}>
+              <Link href="https://lalizlabeth.notion.site/The-Ultimate-Bucket-List-Template-53b802e1d1964926b36355cea6ac6efd">
+                <div className={styles.templateIcon}></div>
+                <div className={styles.templateDescription}>
+                  <h2>The ultimate bucket list template</h2>
+                  <p>
+                    {
+                      "Need a date or besties night out idea? Track your bucket list items for your city!"
+                    }
+                  </p>
+                </div>
+                <h2 className={styles.templatePrice}>FREE</h2>
+              </Link>
+            </li>
           </ul>
           <footer>
             <h3>

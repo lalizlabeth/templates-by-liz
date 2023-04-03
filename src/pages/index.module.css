@@ -89,7 +89,7 @@
 h2.templatePrice {
   font-weight: 400;
   text-align: right;
-  width: 90px;
+  width: 110px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -124,6 +124,6 @@ h2.templatePrice {
     gap: 8px;
   }
   h2.templatePrice {
-    width: 40px;
+    width: 60px;
   }
 }

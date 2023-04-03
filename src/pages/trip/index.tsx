@@ -5,11 +5,11 @@ import Link from "next/link";
 import { getTripPlannerPaymentLink } from "~/helpers/paymentHelpers";
 
 interface HomeProps {
-  paymentLink: string
+  paymentLink: string;
 }
 
 export default function Home(props: HomeProps) {
-  const paymentLink = props.paymentLink
+  const paymentLink = props.paymentLink;
 
   return (
     <>
@@ -65,14 +65,11 @@ export default function Home(props: HomeProps) {
         <div className={styles.wrapper}>
           <header className={styles.header}>
             <h4>✻ the ultimate notion ✻</h4>
-            <h1>trip planner template</h1>
+            <h1>trip planning template</h1>
             <h4>
               includes single & multi-city templates for solo & group travel!
             </h4>
-            <a
-              className={styles.btn}
-              href={paymentLink}
-            >
+            <a className={styles.btn} href={paymentLink}>
               ✻ download for $9 ✻
             </a>
             <video
@@ -143,10 +140,7 @@ export default function Home(props: HomeProps) {
               notion travel template is guaranteed to be better than the google
               sheet itinerary your type-a friend puts together.
             </p>
-            <a
-              className={styles.btn}
-              href={paymentLink}
-            >
+            <a className={styles.btn} href={paymentLink}>
               ✻ start planning for $9 ✻
             </a>
           </section>
