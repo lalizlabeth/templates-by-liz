@@ -76,6 +76,7 @@ export default function Home(props: HomeProps) {
               className={styles.img}
               autoPlay
               muted
+              loop
               playsInline
               width="100%"
               style={{ borderRadius: 10, border: "1px solid black" }}
