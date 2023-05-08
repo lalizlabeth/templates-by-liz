@@ -86,14 +86,14 @@ export default function Home(props: HomeProps) {
             </h2>
             <p className={styles.bodyText}>
               {
-                " I’ve been coaching entry-level designers on their portfolios for more than 10 years! At this point, someone’s portfolio is almost always open in my browser waiting for a review. "
+                "I’ve been coaching entry-level designers on their portfolios for more than 10 years! At this point, someone’s portfolio is almost always open in my browser waiting for a review. "
               }
             </p>
             <ol className={styles.list}>
               <li className={styles.listItem}>
                 <strong>{"👀 I’ve looked at lots of portfolios."}</strong>
                 {
-                  "In previous roles, I’ve always been in charge of reviewing portfolios before the initial phone screen. I have looked at over 1,000 portfolios for internships, entry-level, and senior designer positions. I know the bar and who you are competing with. "
+                  " In previous roles, I’ve always been in charge of reviewing portfolios before the initial phone screen. I have looked at over 1,000 portfolios for internships, entry-level, and senior designer positions. I know the bar and who you are competing with. "
                 }
               </li>
               <li className={styles.listItem}>
@@ -131,15 +131,15 @@ export default function Home(props: HomeProps) {
                 >
                   here
                 </a>
-                . &#40;&Heads up that I have not updated my portfolio in 3 years
+                . &#40;Heads up that I have not updated my portfolio in 3 years
                 🤭.&#41;
               </li>
               <li className={styles.listItem}>
                 <strong>😈 I have a high bar and will be honest.</strong>{" "}
-                Designers are annoying particular and will notice the little
-                details. They might get bothered by a font choice or a typo on
-                your page. The portfolio guide shares the most common mistakes I
-                see.
+                Designers are <em>annoying</em> particular and will notice the
+                little details. They might get bothered by a font choice or a
+                typo on your page. The portfolio guide shares the most common
+                mistakes I see.
               </li>
             </ol>
             <p className={styles.bodyText}>

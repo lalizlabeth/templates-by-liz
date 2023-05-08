@@ -53,6 +53,10 @@
   font-weight: 600;
 }
 
+.listItem em {
+  text-decoration: line-through;
+}
+
 .headingLarge {
   font-size: 48px;
   line-height: 58px;
