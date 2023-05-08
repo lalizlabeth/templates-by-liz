@@ -10,7 +10,9 @@ export default function Home(props: HomeProps) {
   return (
     <>
       <Head>
-        <title>Elizabeth&apos;s portfolio guide | UX & product design</title>
+        <title>
+          Elizabeth&apos;s portfolio guide | UX &amp; product design
+        </title>
         <meta
           name="description"
           content="Everything you need to know about creating your UX or product design portfolio!"
@@ -65,7 +67,7 @@ export default function Home(props: HomeProps) {
                 Elizabeth&apos;s portfolio guide
               </h1>
               <h3 className={styles.headingSmall}>
-                For UX & product designers
+                For UX &amp; product designers
               </h3>
               <p className={styles.bodyText}>
                 Actionable and honest advice from a designer who&apos;s reviewed
