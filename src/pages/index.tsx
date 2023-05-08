@@ -59,7 +59,7 @@ const Home: NextPage = () => {
               <Link href="/portfolio">
                 <div className={styles.templateIcon}></div>
                 <div className={styles.templateDescription}>
-                  <h2>Elizabeth's portfolio guide</h2>
+                  <h2>Elizabeth&apos;s portfolio guide</h2>
                   <p>
                     Everything you need to know about creating your UX or
                     product design portfolio!
