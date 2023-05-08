@@ -61,6 +61,7 @@
 .headingMedium,
 .headingMediumLight {
   font-size: 30px;
+  line-height: 40px;
 }
 
 .headingSmall {
@@ -122,7 +123,6 @@
 
 .sectionCentered {
   align-items: center;
-  background: white;
   border-radius: 10px;
   gap: 32px;
   justify-content: center;
@@ -150,4 +150,28 @@
 
 .btn:hover {
   border: 2px solid #21242c;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 500px) {
+  .main {
+    padding: 48px 20px 48px 20px;
+    gap: 32px;
+  }
+  .wrapper {
+    gap: 48px;
+  }
+  .headingMedium,
+  .headingMediumLight {
+    font-size: 26px;
+    line-height: 120%;
+  }
+  .section {
+    gap: 8px;
+  }
+  .callout,
+  .sectionCentered {
+    padding: 20px;
+  }
 }
