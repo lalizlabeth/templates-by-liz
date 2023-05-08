@@ -1,15 +1,12 @@
 import styles from "./index.module.css";
 import Head from "next/head";
 import Link from "next/link";
-import { getTripPlannerPaymentLink } from "~/helpers/paymentHelpers";
 
 interface HomeProps {
   paymentLink: string;
 }
 
 export default function Home(props: HomeProps) {
-  const paymentLink = props.paymentLink;
-
   return (
     <>
       <Head>
@@ -72,7 +69,7 @@ export default function Home(props: HomeProps) {
               </h3>
               <p className={styles.bodyText}>
                 Actionable and honest advice from a designer who&apos;s reviewed
-                &lsquo;and rejected 🫠&rsquo; thousands of portfolios during her
+                &#40;and rejected 🫠&#41; thousands of portfolios during her
                 career. Learn how you can make your portfolio stand out in a sea
                 of hundreds of applications!
               </p>
@@ -132,8 +129,8 @@ export default function Home(props: HomeProps) {
                 >
                   here
                 </a>
-                . &lsquo;Heads up that I have not updated my portfolio in 3
-                years 🤭.&rsquo;
+                . &#40;&Heads up that I have not updated my portfolio in 3 years
+                🤭.&#41;
               </li>
               <li className={styles.listItem}>
                 <strong>😈 I have a high bar and will be honest.</strong>{" "}
@@ -172,7 +169,7 @@ export default function Home(props: HomeProps) {
                   <li>Ways to make an impression</li>
                   <li>Choosing projects</li>
                   <li>Case study principles</li>
-                  <li>Case study tips & tricks</li>
+                  <li>Case study tips &amp; tricks</li>
                   <li>Project screenshots</li>
                   <li>Help! I need project ideas</li>
                   <li>Introducing yourself</li>
@@ -211,12 +208,4 @@ export default function Home(props: HomeProps) {
       </main>
     </>
   );
-}
-
-export function getStaticProps() {
-  return {
-    props: {
-      paymentLink: getTripPlannerPaymentLink(),
-    },
-  };
 }
