@@ -56,6 +56,19 @@ const Home: NextPage = () => {
           </header>
           <ul className={styles.templates}>
             <li className={styles.template}>
+              <Link href="/portfolio">
+                <div className={styles.templateIcon}></div>
+                <div className={styles.templateDescription}>
+                  <h2>Elizabeth's portfolio guide</h2>
+                  <p>
+                    Everything you need to know about creating your UX or
+                    product design portfolio!
+                  </p>
+                </div>
+                <h2 className={styles.templatePrice}>$20</h2>
+              </Link>
+            </li>
+            <li className={styles.template}>
               <Link href="/trip">
                 <div className={styles.templateIcon}></div>
                 <div className={styles.templateDescription}>
