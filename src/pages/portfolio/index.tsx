@@ -1,6 +1,5 @@
 import styles from "./index.module.css";
 import Head from "next/head";
-import Marquee from "react-fast-marquee";
 import Link from "next/link";
 import { getTripPlannerPaymentLink } from "~/helpers/paymentHelpers";
 
@@ -73,9 +72,9 @@ export default function Home(props: HomeProps) {
               </h3>
               <p className={styles.bodyText}>
                 Actionable and honest advice from a designer who&apos;s reviewed
-                (and rejected 🫠) thousands of portfolios during her career.
-                Learn how you can make your portfolio stand out in a sea of
-                hundreds of applications!
+                &lsquo;and rejected 🫠&rsquo; thousands of portfolios during her
+                career. Learn how you can make your portfolio stand out in a sea
+                of hundreds of applications!
               </p>
             </div>
             <a href="" className={styles.btn}>
@@ -133,7 +132,8 @@ export default function Home(props: HomeProps) {
                 >
                   here
                 </a>
-                . (Heads up that I have not updated my portfolio in 3 years 🤭.)
+                . &lsquo;Heads up that I have not updated my portfolio in 3
+                years 🤭.&rsquo;
               </li>
               <li className={styles.listItem}>
                 <strong>😈 I have a high bar and will be honest.</strong>{" "}
