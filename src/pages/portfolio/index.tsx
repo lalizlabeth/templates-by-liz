@@ -63,6 +63,15 @@ export default function Home(props: HomeProps) {
       <main className={styles.main}>
         <div className={styles.wrapper}>
           <header className={styles.header}>
+            <video
+              className={styles.video}
+              playsInline
+              controls
+              width="100%"
+              style={{ borderRadius: 10, border: "1px solid black" }}
+            >
+              <source src="/portfolio/intro.mp4" type="video/mp4"></source>
+            </video>
             <div className={styles.headerText}>
               <h1 className={styles.headingLarge}>
                 Elizabeth&apos;s portfolio guide
