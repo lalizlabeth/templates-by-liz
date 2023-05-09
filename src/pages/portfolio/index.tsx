@@ -88,7 +88,7 @@ export default function Home(props: HomeProps) {
               </p>
             </div>
             <a href={props.paymentLink} className={styles.btn}>
-              Purchase the guide!
+              Purchase for $20!
             </a>
           </header>
           <section className={styles.section}>
@@ -202,12 +202,18 @@ export default function Home(props: HomeProps) {
             </div>
           </section>
           <section className={styles.sectionCentered}>
-            <h2 className={styles.headingMediumLight}>
-              Make your portfolio stand out in a sea of hundreds of
-              applications.
-            </h2>
+            <div className={styles.headerText}>
+              <h2 className={styles.headingMediumLight}>
+                Make your portfolio stand out in a sea of hundreds of
+                applications.
+              </h2>
+              <p className={styles.bodyText}>
+                Purchasing the guide helps me continue to be a design educator
+                full-time! Thank you for your support 💕
+              </p>
+            </div>
             <a href={props.paymentLink} className={styles.btn}>
-              Purchase the guide!
+              Purchase for $20!
             </a>
           </section>
           <section className={styles.footer}>
