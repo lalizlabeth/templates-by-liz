@@ -92,9 +92,7 @@ export default function Home(props: HomeProps) {
             </a>
           </header>
           <section className={styles.section}>
-            <h2 className={styles.headingMedium}>
-              Why should you trust my advice?
-            </h2>
+            <h2 className={styles.headingMedium}>Why me?</h2>
             <p className={styles.bodyText}>
               {
                 "I’ve been coaching entry-level designers on their portfolios for more than 10 years! At this point, someone’s portfolio is almost always open in my browser waiting for a review. "
