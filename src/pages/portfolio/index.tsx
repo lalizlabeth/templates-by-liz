@@ -1,6 +1,7 @@
 import styles from "./index.module.css";
 import Head from "next/head";
 import Link from "next/link";
+import { getPortfolioGuidePaymentLink } from "~/helpers/paymentHelpers";
 
 interface HomeProps {
   paymentLink: string;
@@ -76,7 +77,7 @@ export default function Home(props: HomeProps) {
                 of hundreds of applications!
               </p>
             </div>
-            <a href="" className={styles.btn}>
+            <a href={props.paymentLink} className={styles.btn}>
               Purchase the guide!
             </a>
           </header>
@@ -196,7 +197,7 @@ export default function Home(props: HomeProps) {
               Make your portfolio stand out in a sea of hundreds of
               applications.
             </h2>
-            <a href="" className={styles.btn}>
+            <a href={props.paymentLink} className={styles.btn}>
               Purchase the guide!
             </a>
           </section>
@@ -210,4 +211,12 @@ export default function Home(props: HomeProps) {
       </main>
     </>
   );
+}
+
+export function getStaticProps() {
+  return {
+    props: {
+      paymentLink: getPortfolioGuidePaymentLink(),
+    },
+  };
 }
