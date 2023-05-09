@@ -90,6 +90,12 @@
   text-decoration: underline;
 }
 
+.video::-webkit-media-controls-overlay-play-button,
+.video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
 /* Lists */
 .list {
   gap: 16px;
