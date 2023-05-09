@@ -68,6 +68,7 @@ export default function Home(props: HomeProps) {
               playsInline
               controls
               width="100%"
+              poster="/portfolio/placeholder.png"
               style={{ borderRadius: 10, border: "1px solid black" }}
             >
               <source src="/portfolio/intro.mp4" type="video/mp4"></source>
@@ -168,7 +169,7 @@ export default function Home(props: HomeProps) {
               What&apos;s included in the guide?
             </h2>
             <p className={styles.bodyText}>
-              13 chapters of written content + some bonus material!
+              14 chapters of written content + some bonus material!
             </p>
             <div className={styles.callout}>
               <div className={styles.calloutSection}>
@@ -182,6 +183,7 @@ export default function Home(props: HomeProps) {
                   <li>Choosing projects</li>
                   <li>Case study principles</li>
                   <li>Case study tips &amp; tricks</li>
+                  <li>Case study red flags</li>
                   <li>Project screenshots</li>
                   <li>Help! I need project ideas</li>
                   <li>Introducing yourself</li>
