@@ -209,7 +209,7 @@ export default function Home(props: HomeProps) {
               </h2>
               <p className={styles.bodyText}>
                 Purchasing the guide helps me continue to be a design educator
-                full-time! Thank you for your support 💕
+                full time! Thank you for your support 💕
               </p>
             </div>
             <a href={props.paymentLink} className={styles.btn}>
