@@ -6,6 +6,9 @@ import { z } from "zod";
  */
 const server = z.object({
   NODE_ENV: z.enum(["development", "test", "production"]),
+  STRIPE_WEBHOOK_SECRET: z.string(),
+  STRIPE_PKEY: z.string(),
+  EMAIL_SERVER: z.string(),
 });
 
 /**
@@ -24,6 +27,9 @@ const client = z.object({
  */
 const processEnv = {
   NODE_ENV: process.env.NODE_ENV,
+  STRIPE_WEBHOOK_SECRET: process.env.STRIPE_WEBHOOK_SECRET,
+  STRIPE_PKEY: process.env.STRIPE_PKEY,
+  EMAIL_SERVER: process.env.EMAIL_SERVER,
   // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
 };
 
