@@ -27,6 +27,7 @@ export async function handlePaymentIntentSuccess(paymentIntent: Stripe.PaymentIn
   const { customerDetails, productIds } = await findPaidProductsForPayment(paymentIntent.id)
 
   const name = customerDetails?.name || ""
+  // TODO
   const email = "elizabethylin@gmail.com" // customerDetails?.email || ""
 
   // Production portfolio guide
