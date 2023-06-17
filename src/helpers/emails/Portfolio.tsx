@@ -1,12 +1,10 @@
 import { sendEmail } from "../server/services/email"
 
-function Portfolio(props: { name: string }) {
-  const { name } = props
-
+function Portfolio() {
   return (
     <div>
       <div>
-        <Greeting name={name} />
+        Hi!
       </div>
       <br />
       <div>
@@ -30,25 +28,10 @@ function Portfolio(props: { name: string }) {
   )
 }
 
-function Greeting(props: { name: string }) {
-  if (props.name) {
-    return (
-      <>
-        Hi {props.name}!
-      </>
-    )
-  }
-  return (
-    <>
-      Hi!
-    </>
-  )
-}
-
-export async function sendPortfolioEmail(name: string, email: string) {
+export async function sendPortfolioEmail(email: string) {
   await sendEmail({
     to: email,
     subject: "💖 Thanks for downloading Elizabeth's portfolio guide!",
-    element: <Portfolio name={name} />
+    element: <Portfolio />
   })
 }

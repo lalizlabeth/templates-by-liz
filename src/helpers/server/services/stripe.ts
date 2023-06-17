@@ -26,17 +26,15 @@ export function isPaymentIntent(object: Stripe.Event.Data.Object): object is Str
 export async function handlePaymentIntentSuccess(paymentIntent: Stripe.PaymentIntent) {
   const { customerDetails, productIds } = await findPaidProductsForPayment(paymentIntent.id)
 
-  const name = customerDetails?.name || ""
-  // TODO
-  const email = "elizabethylin@gmail.com" // customerDetails?.email || ""
+  const email = customerDetails?.email || ""
 
   // Production portfolio guide
   if (productIds.includes("prod_NrNO3FoIeL2hSx")) {
-    await sendPortfolioEmail(name, email)
+    await sendPortfolioEmail(email)
   }
   // Test portfolio guide
   if (productIds.includes("prod_NrNKP9UygoUcP1")) {
-    await sendPortfolioEmail(name, email)
+    await sendPortfolioEmail(email)
   }
 }
 

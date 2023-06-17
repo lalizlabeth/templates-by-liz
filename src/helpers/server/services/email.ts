@@ -17,7 +17,10 @@ export async function sendEmail(args: SendEmailArgs) {
 
   const result = await transport.sendMail({
     to,
-    from: "elizabeth@dumpling.designisaparty.com",
+    from: {
+      name: "Elizabeth",
+      address: "elizabeth@dumpling.designisaparty.com"
+    },
     subject,
     replyTo: "elizabethylin@gmail.com",
     text: "",
