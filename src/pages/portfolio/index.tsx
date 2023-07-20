@@ -88,7 +88,7 @@ export default function Home(props: HomeProps) {
               </p>
             </div>
             <a href={props.paymentLink} className={styles.btn}>
-              Purchase for $20!
+              Purchase for $25!
             </a>
           </header>
           <section className={styles.section}>
@@ -213,7 +213,7 @@ export default function Home(props: HomeProps) {
               </p>
             </div>
             <a href={props.paymentLink} className={styles.btn}>
-              Purchase for $20!
+              Purchase for $25!
             </a>
           </section>
           <section className={styles.footer}>

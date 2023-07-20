@@ -11,7 +11,7 @@ export function getTripPlannerPaymentLink() {
 export function getPortfolioGuidePaymentLink() {
   const environment = env.NODE_ENV
   if (environment === "production") {
-    return "https://buy.stripe.com/dR6160b3C78r5X2eUW"
+    return "https://buy.stripe.com/6oEcOIc7G1O77164gk"
   }
-  return "https://buy.stripe.com/test_4gwg0feq1cIC8Mw5km"
+  return "https://buy.stripe.com/test_14k4hx95HfUOe6QdQT"
 }

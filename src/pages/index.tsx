@@ -65,7 +65,7 @@ const Home: NextPage = () => {
                     product design portfolio!
                   </p>
                 </div>
-                <h2 className={styles.templatePrice}>$20</h2>
+                <h2 className={styles.templatePrice}>$25</h2>
               </Link>
             </li>
             <li className={styles.template}>
