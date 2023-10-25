@@ -167,7 +167,8 @@ export default function Home(props: HomeProps) {
               What&apos;s included in the guide?
             </h2>
             <p className={styles.bodyText}>
-              14 chapters of written content + some bonus material!
+              A digital and downloadable PDF guide with 14 chapters of written
+              content + some bonus material!
             </p>
             <div className={styles.callout}>
               <div className={styles.calloutSection}>
