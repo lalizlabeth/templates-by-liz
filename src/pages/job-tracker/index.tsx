@@ -97,7 +97,7 @@ export default function Home(props: HomeProps) {
               href="https://lalizlabeth.notion.site/Elizabeth-s-Job-Tracker-18783944e4b84f929b19dea0265df5c4?pvs=4"
               className={styles.btn}
             >
-              Use the template
+              Get the template
             </a>
           </header>
 
