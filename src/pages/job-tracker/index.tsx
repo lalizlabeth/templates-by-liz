@@ -90,7 +90,7 @@ export default function Home(props: HomeProps) {
               </p>
               <p className={styles.bodyText}>
                 Good luck on your job search and I hope this template helps
-                organize some of the chaos during your job search!
+                organize some of the chaos!
               </p>
             </div>
             <a
