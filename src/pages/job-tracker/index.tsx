@@ -64,11 +64,10 @@ export default function Home(props: HomeProps) {
             {" "}
             <video
               className={styles.video}
-              playsInline
-              autoPlay
               width="100%"
-              poster="/job-tracker/job-tracker-still.png"
               style={{ borderRadius: 10 }}
+              autoPlay
+              muted
             >
               <source
                 src="/job-tracker/job-tracker.mp4"
