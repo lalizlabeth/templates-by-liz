@@ -67,6 +67,19 @@ const Home: NextPage = () => {
                 </div>
                 <h2 className={styles.templatePrice}>$25</h2>
               </Link>
+            </li>{" "}
+            <li className={styles.template}>
+              <Link href="/job-tracker">
+                <div className={styles.templateIcon}></div>
+                <div className={styles.templateDescription}>
+                  <h2>Elizabeth&apos;s job tracker</h2>
+                  <p>
+                    A simple Notion job tracker to help you keep track of your
+                    job applications!
+                  </p>
+                </div>
+                <h2 className={styles.templatePrice}>FREE</h2>
+              </Link>
             </li>
             <li className={styles.template}>
               <Link href="/trip">

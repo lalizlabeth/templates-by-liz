@@ -1,0 +1,181 @@
+.main {
+  align-items: center;
+  background: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 90px 60px 120px 60px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.header,
+.headerText,
+.section,
+.list,
+.orderedList,
+.callout,
+.calloutSection,
+.sectionCentered,
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography */
+
+.headingLarge,
+.headingMedium,
+.headingMediumLight,
+.headingSmall,
+.headingXsmall,
+.bodyText,
+.listItem,
+.link,
+.btn,
+.orderedList li {
+  color: #21242c;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.headingLarge,
+.headingMedium,
+.headingSmall,
+.headingXsmall,
+.bodyText strong,
+.listItem strong {
+  font-weight: 600;
+}
+
+.listItem em {
+  text-decoration: line-through;
+}
+
+.headingLarge {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.headingMedium,
+.headingMediumLight {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.headingSmall {
+  color: #bd00ff;
+  font-size: 20px;
+}
+
+.bodyText,
+.listItem,
+.orderedList li {
+  opacity: 0.85;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.link {
+  color: #bd00ff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+.list {
+  gap: 16px;
+  list-style: decimal;
+  margin-left: 20px;
+}
+.orderedList {
+  gap: 8px;
+  list-style: disc;
+  margin-left: 20px;
+}
+
+/* Alignment */
+
+.headerText,
+.section {
+  gap: 16px;
+}
+
+.header {
+  gap: 32px;
+}
+
+.callout {
+  gap: 32px;
+  padding: 32px;
+  background: white;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.calloutSection {
+  gap: 8px;
+}
+
+.sectionCentered {
+  align-items: center;
+  border-radius: 10px;
+  gap: 32px;
+  justify-content: center;
+  padding: 32px;
+  text-align: center;
+}
+
+.footer {
+  align-items: center;
+}
+
+/* Buttons */
+.btn {
+  background: #bd00ff;
+  border: 2px solid #bd00ff;
+  border-radius: 100px;
+  display: block;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 12px 32px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.btn:hover {
+  border: 2px solid #21242c;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 500px) {
+  .main {
+    padding: 48px 20px 48px 20px;
+    gap: 32px;
+  }
+  .wrapper {
+    gap: 48px;
+  }
+  .headingMedium,
+  .headingMediumLight {
+    font-size: 26px;
+    line-height: 120%;
+  }
+  .section {
+    gap: 8px;
+  }
+  .callout,
+  .sectionCentered {
+    padding: 20px;
+  }
+}
