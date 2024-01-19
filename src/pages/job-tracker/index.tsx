@@ -38,7 +38,7 @@ export default function Home(props: HomeProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           property="og:image"
-          content="https://www.templatesbyliz.com/og-images/job-tracker.png"
+          content="https://www.templatesbyliz.com/og-images/job-tracker@2x.png"
         />
         <meta
           property="og:title"
