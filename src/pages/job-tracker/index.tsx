@@ -61,7 +61,6 @@ export default function Home(props: HomeProps) {
       <main className={styles.main}>
         <div className={styles.wrapper}>
           <header className={styles.header}>
-            {" "}
             <video
               className={styles.video}
               width="100%"
@@ -84,9 +83,9 @@ export default function Home(props: HomeProps) {
                 already, but I think this one is a little unique.
               </p>
               <p className={styles.bodyText}>
-                I included a special area to help you figure out what your dream
-                job looks like. How do you figure out if a job is a good fit?
-                What specific aspects are you prioritizing in your next role?
+                {
+                  "I included a special area to help you figure out what your dream job looks like. How do you figure out if a job is a good fit? What specific aspects are you prioritizing in your next role?"
+                }
               </p>
               <p className={styles.bodyText}>
                 Good luck on your job search and I hope this template will help
@@ -97,7 +96,7 @@ export default function Home(props: HomeProps) {
               href="https://lalizlabeth.notion.site/Elizabeth-s-Job-Tracker-18783944e4b84f929b19dea0265df5c4?pvs=4"
               className={styles.btn}
             >
-              Use the template!
+              Use the template
             </a>
           </header>
 
