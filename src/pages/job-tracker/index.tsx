@@ -81,14 +81,13 @@ export default function Home(props: HomeProps) {
               </h1>
               <p className={styles.bodyText}>
                 This is the Notion job tracker I used when I was searching for a
-                new job ✨! I know there are a bajillions of job trackers out
-                there already, but I think this one is a little unique.
+                new job ✨! I know there are a bajillion job trackers out there
+                already, but I think this one is a little unique.
               </p>
               <p className={styles.bodyText}>
-                I included a special area to help you figure out "what you're
-                looking for next". What does your dream job look like? How do
-                you figure out if a job is a good fit? What specific aspects are
-                you prioritizing in your next role?
+                I included a special area to help you figure out what your dream
+                job looks like. How do you figure out if a job is a good fit?
+                What specific aspects are you prioritizing in your next role?
               </p>
               <p className={styles.bodyText}>
                 Good luck on your job search and I hope this template will help
