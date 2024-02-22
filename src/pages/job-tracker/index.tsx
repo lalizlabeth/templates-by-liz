@@ -94,7 +94,7 @@ export default function Home(props: HomeProps) {
               </p>
             </div>
             <a
-              href="https://lalizlabeth.notion.site/Elizabeth-s-Job-Tracker-18783944e4b84f929b19dea0265df5c4?pvs=4"
+              href="https://affiliate.notion.so/job-tracker"
               className={styles.btn}
             >
               Get the template
