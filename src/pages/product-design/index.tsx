@@ -14,43 +14,43 @@ export default function Home(props: HomeProps) {
         <title>Elizabeth&apos;s Declassified Product Design Guide</title>
         <meta
           name="description"
-          content="Everything you need to know about creating your UX or product design portfolio!"
+          content="My honest advice on how to break into the design industry!"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:url"
-          content="https://www.templatesbyliz.com/portfolio"
+          content="https://www.templatesbyliz.com/product-design"
         />
 
         <meta
           name="twitter:title"
-          content="Elizabeth's portfolio guide | UX & product design"
+          content="Elizabeth's Declassified Product Design Guide"
         />
         <meta
           name="twitter:description"
-          content="Everything you need to know about creating your UX or product design portfolio!"
+          content="My honest advice on how to break into the design industry!"
         />
         <meta name="twitter:site" content="@lalizlabeth"></meta>
         <meta
           name="twitter:image"
-          content="https://www.templatesbyliz.com/og-images/portfolio.png"
+          content="https://www.templatesbyliz.com/og-images/product-design.png"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           property="og:image"
-          content="https://www.templatesbyliz.com/og-images/portfolio.png"
+          content="https://www.templatesbyliz.com/og-images/product-design.png"
         />
         <meta
           property="og:title"
-          content="Elizabeth's portfolio guide | UX & product design"
+          content="Elizabeth's Declassified Product Design Guide"
         />
         <meta
           property="og:description"
-          content="Everything you need to know about creating your UX or product design portfolio!"
+          content="My honest advice on how to break into the design industry!"
         />
         <meta
           name="keywords"
-          content="notion templates, notion, ux design, product design, portfolio, portfolio guide, elizabeth's portfolio guide, ux portfolio, product design portfolio, case studies, elizabeth lin, lalizlabeth, elizabeth notion templates"
+          content="product design, product design guide, elizabeth's declassified guide to product design, notion templates, notion, ux design, product design, portfolio, portfolio guide, elizabeth's portfolio guide, ux portfolio, product design portfolio, case studies, elizabeth lin, lalizlabeth, elizabeth notion templates"
         />
         <link rel="icon" href="/favicon-general.png" />
         <link
