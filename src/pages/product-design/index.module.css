@@ -71,6 +71,7 @@
 .headingSmall {
   color: #21242c;
   font-size: 20px;
+  line-height: 1.4;
 }
 .headingXsmall {
   font-size: 17px;
@@ -90,8 +91,7 @@
 
 .link {
   background: #f5ff4b;
-  border-top: 2px solid transparent;
-  border-bottom: 2px solid #21242c;
+  border-bottom: 2px solid transparent;
   padding: 0 4px;
   color: #21242c;
   font-weight: 700;
@@ -99,7 +99,6 @@
 }
 .link:hover {
   border-bottom: 2px solid #21242c;
-  border-top: 2px solid #21242c;
 }
 
 /* Lists */
@@ -127,15 +126,24 @@
 }
 
 .callout {
-  gap: 8px;
-  padding: 32px;
-  background: white;
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  /* padding: 32px; */
+  /* background: white; */
+  /* border-radius: 10px; */
   width: 100%;
 }
 
 .calloutSection {
-  gap: 12px;
+  gap: 8px;
+  border-top: 1px solid #21242c;
+  padding-top: 32px;
+}
+
+.calloutSection:first-child {
+  border-top: none;
 }
 
 .sectionCentered {
@@ -149,6 +157,11 @@
 
 .footer {
   align-items: center;
+}
+
+.image {
+  border-radius: 2px;
+  border: 1px solid #21242c;
 }
 
 /* Buttons */
@@ -181,6 +194,10 @@
   .wrapper {
     gap: 48px;
   }
+  .headingLarge {
+    font-size: 40px;
+    line-height: 1.2;
+  }
   .headingMedium,
   .headingMediumLight {
     font-size: 26px;
@@ -191,6 +208,6 @@
   }
   .callout,
   .sectionCentered {
-    padding: 20px;
+    /* padding: 20px; */
   }
 }

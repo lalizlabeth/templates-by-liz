@@ -67,7 +67,7 @@ export default function Home(props: HomeProps) {
               controls
               width="100%"
               poster="/product-design/placeholder.png"
-              style={{ borderRadius: 10, border: "1px solid black" }}
+              style={{ borderRadius: 2, border: "1px solid #21242c" }}
             >
               <source
                 src="/product-design/intro-subs.mp4"
@@ -83,12 +83,12 @@ export default function Home(props: HomeProps) {
               </h3>
               <p className={styles.bodyText}>
                 {
-                  "There is an overwhelming amount of advice circulating the internet for aspiring product designers. It can be hard to know where to even start. Whose advice should I listen to? How do I know if product design is a good fit for me? Should I sign up for a bootcamp? What should I learn first?"
+                  "There is an overwhelming amount of advice circulating the internet for aspiring product designers. It can be hard to know where to even start 😭. Whose advice should you listen to? How do you know if product design is a good fit for you? Should you sign up for a bootcamp? What skills should you learn first?"
                 }
               </p>
               <p className={styles.bodyText}>
                 {
-                  "Over the past decade, I’ve mentored hundreds of product designers to land their first product design role! I used my experience to craft a guide to be your companion 👭 throughout your product design journey!"
+                  "Over the past decade, I’ve mentored hundreds of product designers to land their first product design role at companies like Meta, Google, and Figma. I used my experience to craft a guide to be your companion 👭 throughout your product design journey!"
                 }
               </p>
 
@@ -104,17 +104,25 @@ export default function Home(props: HomeProps) {
           </header>
 
           <section className={styles.section}>
-            <h2 className={styles.headingMedium}>A little preview</h2>
+            <h2 className={styles.headingMedium}>A little preview</h2>{" "}
+            <img
+              className={styles.image}
+              src="/product-design/preview.png"
+            ></img>
             <p className={styles.bodyText}>
               {
-                'One of my favorite chapters from the book "Bootcamps, grad school, & certificates, oh my!" is published online for free! I dive into my honest thoughts on the variety of ways to learn design. Read the full chapter on'
-              }{" "}
-              <a className={styles.link} href="">
-                my blog
-              </a>
+                'If you want a little sneak peek before getting the full guide, I published one of my favorite chapters: "Bootcamps, grad school, & certificates, oh my!" I dive into my honest thoughts on the variety of ways to learn design. '
+              }
               .
+            </p>{" "}
+            <p className={styles.bodyText}>
+              <a
+                className={styles.link}
+                href="https://designisaparty.com/bootcamps-ohmy/"
+              >
+                {"> Read the full chapter on my blog"}
+              </a>
             </p>
-            <img src="/product-design/preview.png"></img>
           </section>
           <section className={styles.section}>
             <h2 className={styles.headingMedium}>
@@ -124,12 +132,13 @@ export default function Home(props: HomeProps) {
               A digital guide with 24 chapters of written content + some bonus
               material!
             </p>
+            <img className={styles.image} src="/product-design/guide.png"></img>
             <div className={styles.callout}>
               <div className={styles.calloutSection}>
                 <h5 className={styles.headingSmall}>📕 Introduction</h5>
                 <p className={styles.bodyText}>
                   {
-                    "What do product designers do? Many people have misconceptions about what product design is and is not. How do you know if product design might be a good fit for your interests?"
+                    "What do product designers do? How do you know if product design might be a good fit for your interests?"
                   }
                 </p>
                 <ol className={styles.orderedList}>
@@ -138,8 +147,6 @@ export default function Home(props: HomeProps) {
                   <li>Should I become a product designer?</li>
                 </ol>
               </div>
-            </div>{" "}
-            <div className={styles.callout}>
               <div className={styles.calloutSection}>
                 <h5 className={styles.headingSmall}>📙 The skills</h5>
                 <p className={styles.bodyText}>
@@ -155,8 +162,6 @@ export default function Home(props: HomeProps) {
                   <li>Am I ready?</li>
                 </ol>
               </div>
-            </div>
-            <div className={styles.callout}>
               <div className={styles.calloutSection}>
                 <h5 className={styles.headingSmall}>📒 How to learn</h5>{" "}
                 <p className={styles.bodyText}>
@@ -173,8 +178,6 @@ export default function Home(props: HomeProps) {
                   <li>Getting projects</li>
                 </ol>
               </div>
-            </div>{" "}
-            <div className={styles.callout}>
               <div className={styles.calloutSection}>
                 <h5 className={styles.headingSmall}>📗 The job search</h5>{" "}
                 <p className={styles.bodyText}>
@@ -194,12 +197,12 @@ export default function Home(props: HomeProps) {
                   <li>The whiteboard challenge</li>
                 </ol>
               </div>
-            </div>
-            <div className={styles.callout}>
               <div className={styles.calloutSection}>
                 <h5 className={styles.headingSmall}>✨ Bonus goodies</h5>
                 <p className={styles.bodyText}>
-                  {"Plus, a couple templates to help you along the way!"}
+                  {
+                    "Plus, I included a couple templates to help you along the way!"
+                  }
                 </p>
                 <ul className={styles.orderedList}>
                   <li>Job tracker template</li>
@@ -223,7 +226,7 @@ export default function Home(props: HomeProps) {
           <section className={styles.footer}>
             {" "}
             <Link className={styles.link} href="/">
-              Check out my other Notion templates
+              {"> Check out my other Notion templates <"}
             </Link>
           </section>
         </div>
