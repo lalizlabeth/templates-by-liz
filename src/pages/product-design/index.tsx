@@ -165,7 +165,7 @@ export default function Home(props: HomeProps) {
                   }
                 </p>
                 <ol className={styles.orderedList}>
-                  <li>Elizabeth's principles for learning</li>
+                  <li>{"Elizabeth's principles for learning"}</li>
                   <li>Design something</li>
                   <li>Ways to learn</li>
                   <li>Bootcamps, grad school, and certificates, oh my!</li>
