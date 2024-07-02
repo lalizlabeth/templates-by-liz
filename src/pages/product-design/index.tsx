@@ -80,27 +80,21 @@ export default function Home(props: HomeProps) {
               </h1>
               <h3 className={styles.headingSmall}>
                 Digital book with 24 chapters written by yours truly 💖
-              </h3>
-              <p className={styles.bodyText}>
+              </h3>{" "}
+              <a href={props.paymentLink} className={styles.btn}>
+                Purchase for $50
+              </a>
+              <p className={styles.bodyText} style={{ marginTop: 24 }}>
                 {
                   "There is an overwhelming amount of advice circulating the internet for aspiring product designers. It can be hard to know where to even start 😭. Whose advice should you listen to? How do you know if product design is a good fit for you? Should you sign up for a bootcamp? What skills should you learn first?"
                 }
               </p>
               <p className={styles.bodyText}>
                 {
-                  "Over the past decade, I’ve mentored hundreds of product designers to land their first product design role at companies like Meta, Google, and Figma. I used my experience to craft a guide to be your companion 👭 throughout your product design journey!"
-                }
-              </p>
-
-              <p className={styles.bodyText}>
-                {
-                  " Whether you're just beginning your product design journey or actively seeking your first role, this guide will help point you in the right direction!"
+                  "Over the past decade, I’ve mentored hundreds of product designers to land their first product design roles at companies like Meta, Google, and Figma. I used my experience to craft a guide to be your companion 👭 throughout your product design journey!"
                 }
               </p>
             </div>
-            <a href={props.paymentLink} className={styles.btn}>
-              Purchase for $50
-            </a>
           </header>
 
           <section className={styles.section}>
@@ -111,9 +105,8 @@ export default function Home(props: HomeProps) {
             ></img>
             <p className={styles.bodyText}>
               {
-                'If you want a little sneak peek before getting the full guide, I published one of my favorite chapters: "Bootcamps, grad school, & certificates, oh my!" I dive into my honest thoughts on the variety of ways to learn design. '
+                'If you want a little sneak peek before getting the full guide, I published one of my favorite chapters: "Bootcamps, grad school, & certificates, oh my!" I dive into my honest thoughts on the variety of ways to learn design.'
               }
-              .
             </p>{" "}
             <p className={styles.bodyText}>
               <a
@@ -128,17 +121,19 @@ export default function Home(props: HomeProps) {
             <h2 className={styles.headingMedium}>
               What&apos;s included in the guide?
             </h2>
-            <p className={styles.bodyText}>
-              A digital guide with 24 chapters of written content + some bonus
-              material!
-            </p>
             <img className={styles.image} src="/product-design/guide.png"></img>
+            <p className={styles.bodyText}>
+              {
+                "You'll get access to a digital book with 24 chapters of written content plus some bonus material! Here's a chapter breakdown:"
+              }
+            </p>
+
             <div className={styles.callout}>
               <div className={styles.calloutSection}>
                 <h5 className={styles.headingSmall}>📕 Introduction</h5>
                 <p className={styles.bodyText}>
                   {
-                    "What do product designers do? How do you know if product design might be a good fit for your interests?"
+                    "What do product designers even do? How do I know if product design might be a good fit for my interests?"
                   }
                 </p>
                 <ol className={styles.orderedList}>
@@ -151,7 +146,7 @@ export default function Home(props: HomeProps) {
                 <h5 className={styles.headingSmall}>📙 The skills</h5>
                 <p className={styles.bodyText}>
                   {
-                    "What skills do product designers need? How do I know that I'm ready for the job?"
+                    "What skills do product designers need to learn? How do I know that I'm ready for the job?"
                   }
                 </p>
                 <ol className={styles.orderedList}>
@@ -166,7 +161,7 @@ export default function Home(props: HomeProps) {
                 <h5 className={styles.headingSmall}>📒 How to learn</h5>{" "}
                 <p className={styles.bodyText}>
                   {
-                    "What is the best way to learn product design? Should I join a bootcamp or apply to grad school? Here, I go into ways you can learn product design in detail."
+                    "What is the best way to learn product design? How do I improve in a specific skill area? Should I join a bootcamp or apply to grad school?"
                   }
                 </p>
                 <ol className={styles.orderedList}>
@@ -182,7 +177,7 @@ export default function Home(props: HomeProps) {
                 <h5 className={styles.headingSmall}>📗 The job search</h5>{" "}
                 <p className={styles.bodyText}>
                   {
-                    "Now that you're ready, how do you land your first design job? How can you prepare yourself for the interview process?"
+                    "How can I increase my chances of landing a design job? How can I prepare myself for the interview process?"
                   }
                 </p>
                 <ol className={styles.orderedList}>
@@ -201,7 +196,7 @@ export default function Home(props: HomeProps) {
                 <h5 className={styles.headingSmall}>✨ Bonus goodies</h5>
                 <p className={styles.bodyText}>
                   {
-                    "Plus, I included a couple templates to help you along the way!"
+                    "As a bonus, I included a couple templates to help you along the way!"
                   }
                 </p>
                 <ul className={styles.orderedList}>

@@ -1,6 +1,16 @@
 .main {
   align-items: center;
   background: #f8f8f8;
+  background: linear-gradient(
+    251.68deg,
+    rgba(255, 71, 245, 0.16) -1.25%,
+    rgba(255, 164, 69, 0.1408) 18.08%,
+    rgba(233, 226, 74, 0.16) 37.41%,
+    rgba(115, 238, 172, 0.16) 56.75%,
+    rgba(60, 149, 248, 0.16) 76.08%,
+    rgba(209, 99, 255, 0.16) 95.41%
+  );
+
   display: flex;
   justify-content: center;
   height: 100%;
@@ -129,10 +139,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-
-  /* padding: 32px; */
-  /* background: white; */
-  /* border-radius: 10px; */
   width: 100%;
 }
 
@@ -144,6 +150,11 @@
 
 .calloutSection:first-child {
   border-top: none;
+}
+
+.calloutSection:last-child {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #21242c;
 }
 
 .sectionCentered {
@@ -167,7 +178,7 @@
 /* Buttons */
 .btn {
   background: #f5ff4b;
-  border: 2px solid #21242c;
+  border: 1px solid #21242c;
   border-radius: 2px;
   display: block;
   color: #21242c;
@@ -179,7 +190,7 @@
 }
 
 .btn:hover {
-  border: 2px solid #21242c;
+  border: 1px solid #21242c;
   background: #21242c;
   color: #f5ff4b;
 }
@@ -195,7 +206,7 @@
     gap: 48px;
   }
   .headingLarge {
-    font-size: 40px;
+    font-size: 44px;
     line-height: 1.2;
   }
   .headingMedium,
@@ -205,9 +216,5 @@
   }
   .section {
     gap: 8px;
-  }
-  .callout,
-  .sectionCentered {
-    /* padding: 20px; */
   }
 }

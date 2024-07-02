@@ -56,6 +56,18 @@ const Home: NextPage = () => {
           </header>
           <ul className={styles.templates}>
             <li className={styles.template}>
+              <Link href="/product-design">
+                <div className={styles.templateIcon}></div>
+                <div className={styles.templateDescription}>
+                  <h2>Elizabeth&apos;s declassified guide to product design</h2>
+                  <p>
+                    My honest advice on how to break into the design industry!
+                  </p>
+                </div>
+                <h2 className={styles.templatePrice}>$50</h2>
+              </Link>
+            </li>{" "}
+            <li className={styles.template}>
               <Link href="/portfolio">
                 <div className={styles.templateIcon}></div>
                 <div className={styles.templateDescription}>
