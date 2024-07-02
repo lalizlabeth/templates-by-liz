@@ -7,11 +7,11 @@ function ProductDesign() {
       <br />
       <div>
         Thank you so much for downloading Elizabeth&apos;s Declassified Guide to
-        Product Design! In case you lose the link, you can find it{" "}
+        Product Design! In case you lose the link, you can find the book{" "}
         <a href="https://lalizlabeth.notion.site/Elizabeth-s-Declassified-Guide-to-Product-Design-6238679950f24423aea6edd5d10bf25f?pvs=74">
           here
         </a>
-        . Please reach out if you have any additional questions or feedback.
+        . Please reach out if you have any questions or feedback 💖.
       </div>
       <br />
       <div>Good luck with your design journey!</div>
