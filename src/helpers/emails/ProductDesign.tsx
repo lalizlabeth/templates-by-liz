@@ -26,7 +26,7 @@ function ProductDesign() {
   );
 }
 
-export async function sendProductDesign(email: string) {
+export async function sendProductDesignEmail(email: string) {
   await sendEmail({
     to: email,
     subject:

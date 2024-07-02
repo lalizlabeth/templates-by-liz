@@ -1,6 +1,7 @@
 import Stripe from 'stripe';
 import { env } from '~/env.mjs';
 import { sendPortfolioEmail } from '~/helpers/emails/Portfolio';
+import { sendProductDesignEmail } from '~/helpers/emails/ProductDesign';
 
 export const stripe = new Stripe(env.STRIPE_PKEY, {
   apiVersion: "2022-11-15"
@@ -35,6 +36,15 @@ export async function handlePaymentIntentSuccess(paymentIntent: Stripe.PaymentIn
   // Test portfolio guide
   if (productIds.includes("prod_NrNKP9UygoUcP1")) {
     await sendPortfolioEmail(email)
+  }
+
+  // Test product design guide
+  if (productIds.includes("prod_QOjtx5fkpT4f74")) {
+    await sendProductDesignEmail(email)
+  }
+
+  if (productIds.includes("prod_QOk8vCUccNRmnV")) {
+    await sendProductDesignEmail(email)
   }
 }
 

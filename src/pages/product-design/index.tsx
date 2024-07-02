@@ -1,7 +1,7 @@
 import styles from "./index.module.css";
 import Head from "next/head";
 import Link from "next/link";
-import { getPortfolioGuidePaymentLink } from "~/helpers/paymentHelpers";
+import { getPortfolioGuidePaymentLink, getProductDesignPaymentLink } from "~/helpers/paymentHelpers";
 
 interface HomeProps {
   paymentLink: string;
@@ -233,7 +233,7 @@ export default function Home(props: HomeProps) {
 export function getStaticProps() {
   return {
     props: {
-      paymentLink: getPortfolioGuidePaymentLink(),
+      paymentLink: getProductDesignPaymentLink(),
     },
   };
 }
