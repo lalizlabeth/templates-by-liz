@@ -6,7 +6,7 @@ function ProductDesign() {
       <div>Hi!</div>
       <br />
       <div>
-        Thank you so much for downloading Elizabeth's Declassified Guide to
+        Thank you so much for downloading Elizabeth&apos;s Declassified Guide to
         Product Design! In case you lose the link, you can find it{" "}
         <a href="https://lalizlabeth.notion.site/Elizabeth-s-Declassified-Guide-to-Product-Design-6238679950f24423aea6edd5d10bf25f?pvs=74">
           here
@@ -19,7 +19,7 @@ function ProductDesign() {
       <br />
       <div>
         p.s. If you&apos;re interested, I&apos;m working on a course called The
-        art of visual design. Learn more{" "}
+        Art of Visual Design. Learn more{" "}
         <a href="https://www.artofvisualdesign.com/">here</a> ✨
       </div>
     </div>
