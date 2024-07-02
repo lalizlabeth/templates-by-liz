@@ -94,16 +94,6 @@ const Home: NextPage = () => {
               </Link>
             </li>
             <li className={styles.template}>
-              <Link href="/trip">
-                <div className={styles.templateIcon}></div>
-                <div className={styles.templateDescription}>
-                  <h2>The ultimate trip planning template</h2>
-                  <p>Make the most out of every second of your vacation.</p>
-                </div>
-                <h2 className={styles.templatePrice}>$9</h2>
-              </Link>
-            </li>
-            <li className={styles.template}>
               <Link href="/wedding">
                 <div className={styles.templateIcon}></div>
                 <div className={styles.templateDescription}>
@@ -115,6 +105,16 @@ const Home: NextPage = () => {
                   </p>
                 </div>
                 <h2 className={styles.templatePrice}>$39</h2>
+              </Link>
+            </li>
+            <li className={styles.template}>
+              <Link href="/trip">
+                <div className={styles.templateIcon}></div>
+                <div className={styles.templateDescription}>
+                  <h2>The ultimate trip planning template</h2>
+                  <p>Make the most out of every second of your vacation.</p>
+                </div>
+                <h2 className={styles.templatePrice}>$9</h2>
               </Link>
             </li>
           </ul>
