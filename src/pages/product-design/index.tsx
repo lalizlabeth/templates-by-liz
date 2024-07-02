@@ -91,7 +91,7 @@ export default function Home(props: HomeProps) {
               </p>
               <p className={styles.bodyText}>
                 {
-                  "Over the past decade, I’ve mentored hundreds of product designers to land their first product design roles at companies like Meta, Google, and Figma. I used my experience to craft a guide to be your companion 👭 throughout your product design journey!"
+                  "Over the past decade, I’ve mentored hundreds of product designers to land their first product design roles. I used my experience to craft a guide to be your companion 👭 throughout your product design journey!"
                 }
               </p>
             </div>
