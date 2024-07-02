@@ -1,7 +1,10 @@
 import styles from "./index.module.css";
 import Head from "next/head";
 import Link from "next/link";
-import { getPortfolioGuidePaymentLink, getProductDesignPaymentLink } from "~/helpers/paymentHelpers";
+import {
+  getPortfolioGuidePaymentLink,
+  getProductDesignPaymentLink,
+} from "~/helpers/paymentHelpers";
 
 interface HomeProps {
   paymentLink: string;
@@ -11,7 +14,7 @@ export default function Home(props: HomeProps) {
   return (
     <>
       <Head>
-        <title>Elizabeth&apos;s Declassified Product Design Guide</title>
+        <title>Elizabeth&apos;s Declassified Guide to Product Design</title>
         <meta
           name="description"
           content="My honest advice on how to break into the design industry!"
@@ -24,7 +27,7 @@ export default function Home(props: HomeProps) {
 
         <meta
           name="twitter:title"
-          content="Elizabeth's Declassified Product Design Guide"
+          content="Elizabeth's Declassified Guide to Product Design"
         />
         <meta
           name="twitter:description"
@@ -42,7 +45,7 @@ export default function Home(props: HomeProps) {
         />
         <meta
           property="og:title"
-          content="Elizabeth's Declassified Product Design Guide"
+          content="Elizabeth's Declassified Guide to Product Design"
         />
         <meta
           property="og:description"
@@ -76,7 +79,7 @@ export default function Home(props: HomeProps) {
             </video>
             <div className={styles.headerText}>
               <h1 className={styles.headingLarge}>
-                Elizabeth&apos;s Declassified Product Design Guide
+                Elizabeth&apos;s Declassified Guide to Product Design
               </h1>
               <h3 className={styles.headingSmall}>
                 Digital book with 24 chapters written by yours truly 💖
@@ -105,7 +108,7 @@ export default function Home(props: HomeProps) {
             ></img>
             <p className={styles.bodyText}>
               {
-                'If you want a little sneak peek before getting the full guide, I published one of my favorite chapters: "Bootcamps, grad school, & certificates, oh my!" I dive into my honest thoughts on the variety of ways to learn design.'
+                'If you want a little sneak peek before getting the full book, I published one of my favorite chapters: "Bootcamps, grad school, & certificates, oh my!" I dive into my honest thoughts on the variety of ways to learn design.'
               }
             </p>{" "}
             <p className={styles.bodyText}>
@@ -119,7 +122,7 @@ export default function Home(props: HomeProps) {
           </section>
           <section className={styles.section}>
             <h2 className={styles.headingMedium}>
-              What&apos;s included in the guide?
+              What&apos;s included in the book?
             </h2>
             <img className={styles.image} src="/product-design/guide.png"></img>
             <p className={styles.bodyText}>
@@ -208,9 +211,9 @@ export default function Home(props: HomeProps) {
           </section>
           <section className={styles.sectionCentered}>
             <div className={styles.headerText}>
-              <h2 className={styles.headingMediumLight}>Get the guide!</h2>
+              <h2 className={styles.headingMediumLight}>Get the book!</h2>
               <p className={styles.bodyText}>
-                Purchasing the guide helps me continue to be a design educator
+                Purchasing the book helps me continue to be a design educator
                 full time! Thank you for your support 💕
               </p>
             </div>
