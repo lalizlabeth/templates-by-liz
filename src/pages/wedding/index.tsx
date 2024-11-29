@@ -66,7 +66,7 @@ const Home: NextPage = () => {
               A stress-free-ish guide powered by Notion
             </p>
             <button className={styles.btn}>
-              <a href="https://checkout.stripe.com/c/pay/cs_live_a1WHSUb1KdZAbSmSumYZh2iQF17ksfQ4Wu1uArMGYCbkzD3OVWOIgRfqAi#fidkdWxOYHwnPyd1blppbHNgWmRQU2w8TURLV2M3U25McDBydUE3UDVHXCcpJ3VpbGtuQH11anZgYUxhJz8nPXJIPEZyY29WPGJ%2FYXVwPEREJyknd2BjYHd3YHdKd2xibGsnPydtcXF1dj8qKnJycitnd2xhYH9saWlkdXdqamMrZmpoKid4JSUl">
+              <a href="https://buy.stripe.com/8wM9CwfjS9gzdpu9AA">
                 * Download for $39 *
               </a>
             </button>
@@ -136,7 +136,7 @@ const Home: NextPage = () => {
               thought!
             </p>
             <button className={styles.btn} style={{ marginTop: 48 }}>
-              <a href="https://checkout.stripe.com/c/pay/cs_live_a1WHSUb1KdZAbSmSumYZh2iQF17ksfQ4Wu1uArMGYCbkzD3OVWOIgRfqAi#fidkdWxOYHwnPyd1blppbHNgWmRQU2w8TURLV2M3U25McDBydUE3UDVHXCcpJ3VpbGtuQH11anZgYUxhJz8nPXJIPEZyY29WPGJ%2FYXVwPEREJyknd2BjYHd3YHdKd2xibGsnPydtcXF1dj8qKnJycitnd2xhYH9saWlkdXdqamMrZmpoKid4JSUl">
+              <a href="https://buy.stripe.com/8wM9CwfjS9gzdpu9AA">
                 * Download for $39 *
               </a>
             </button>
